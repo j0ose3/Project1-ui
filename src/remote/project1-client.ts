@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 export const p1 = axios.create({
-    baseURL: 'http://localhost:8080',
-    // baseURL: 'http://project1api-env.eba-pgmp5v2m.us-east-1.elasticbeanstalk.com/',
+    baseURL: 'http://project1api-env.eba-pgmp5v2m.us-east-1.elasticbeanstalk.com/',
     headers: {
         'Content-Type': 'application/json'
     },
